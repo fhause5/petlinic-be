@@ -7,6 +7,8 @@ This section describes how to execute build and run petclinic-backed application
 To run application in local or run integration tests in-memory hsqldb is used.
 While QA/Demo/Production can use real db like Postgres.
 
+
+
 Petclinic backend build/test/run is configurable using Maven and Spring Boot Configuration profiles.
 
 To select maven profile **-P**  key is used: example:
