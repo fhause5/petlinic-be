@@ -10,5 +10,5 @@ helm:
     value: snap032/fontend
     forcestring: true
   - name: image.tag
-    value: "11.9"
+    value: 1.2.8
     forcestring: true
