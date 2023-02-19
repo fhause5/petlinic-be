@@ -1,0 +1,14 @@
+helm:
+  parameters:
+  - name: autoscaling.minReplicas
+    value: "0"
+    forcestring: false
+  - name: replicaCount
+    value: "0"
+    forcestring: false
+  - name: image.name
+    value: snap032/fontend
+    forcestring: true
+  - name: image.tag
+    value: "11.9"
+    forcestring: true
